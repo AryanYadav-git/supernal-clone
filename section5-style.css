@@ -1,0 +1,160 @@
+/* :root{
+    --black:black;
+    --green: rgb(175, 240, 5);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Replica,Roboto,Arial,sans-serif;
+    
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+} */
+
+/* button{
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    font-size: 18px;
+} */
+
+.section5{
+    background-color: white;
+    color: black;
+    padding: 4rem;
+    height: fit-content;
+    width: 100%;
+}
+
+.section5-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    /* background-color:red ; */
+}
+.section5-part{
+    width: 49%;
+    /* background-color:antiquewhite; */
+}
+
+.section5-p1-text{
+    border-left: solid 1px black;
+    padding:0 1.5em ;
+    
+}
+.section5-p1-text h1{
+    color: black;
+    text-align: left;
+    font-size: 80px;
+    font-weight: 400;
+  }
+  .section5-p1-text p{
+    color: black;
+    margin: 0.4rem 0 ;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 130%;
+
+  }
+
+  .clickable-green-button{
+    margin-top: 1rem;
+    padding:1rem 2rem;
+    background-color: var(--green);
+    border: none;
+    border-radius: 0.4rem;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.section5-card img{
+    width: 100%;
+    height: 400px;
+
+}
+
+.section5-part1{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.section-card-description{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.section-card-description h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+.section-card-description p{
+    color: black;
+    font-size: 18px;
+}
+.section-card-description button{
+    color: black;
+    width: fit-content;
+    font-size: 18px;
+}
+
+.section5-part2{
+    padding: 6rem 0;
+}
+
+
+.fa-arrow-right{
+    color:black;
+}
+/* .website-content{
+    height:100vh;
+    width:100vw;
+    background-color: antiquewhite;
+} */
+
+@media (max-width: 480px) {
+    .section5-container{
+        flex-direction: column;
+    }
+    .section5-part{
+        width: 100%;
+        /* background-color:antiquewhite; */
+    }
+    .section5-card img{
+        height:200px
+    }
+    .section5-part2{
+        padding:0;
+    }
+
+    .section5{
+        padding: 1rem;
+    }
+
+    .section5-p1-text h1{
+        color: black;
+        text-align: left;
+        font-size: 55px;
+        font-weight: 400;
+      }
+      .section5-p1-text p{
+        color: black;
+        margin: 0.4rem 0 ;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 130%;
+    
+      }
+  }

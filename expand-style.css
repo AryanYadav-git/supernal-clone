@@ -1,0 +1,150 @@
+:root{
+    --black:black;
+    --green: rgb(175, 240, 5);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Replica,Roboto,Arial,sans-serif;
+    color: white;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background-color: white; */
+}
+body{
+    overflow-x: hidden;
+}
+
+i{
+    font-style: normal;
+    color: var(--green);
+}
+
+/* .website-content{
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+} */
+
+.section6{
+  background-color: white;
+}
+
+.image{
+  background-color: white;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.section6-img-container{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+  }
+
+  .text{
+    width: 50%;
+  position: absolute;
+  margin:0 5rem ;
+  padding:2em ;
+  /* top: 10%; */
+    z-index: 2;
+    border-left: solid 1px white;
+  }
+
+  .text h1{
+    text-align: left;
+    font-size: 88px;
+    font-weight: 500;
+  }
+
+  .text p{
+        margin: 0.4rem 0 ;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 130%;
+
+      }
+
+      .clickable-green-button{
+        margin-top: 1rem;
+        padding:1rem 2rem;
+        background-color: var(--green);
+        border: none;
+        border-radius: 0.4rem;
+        color: black;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+
+    /* @media (min-height: 2160px){
+      .text h1{
+        text-align: left;
+        font-size: 170rem;
+        font-weight: 500;
+      }
+
+
+      .text p{
+        margin: 0.4rem 0 ;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 130%;
+
+      }
+
+      .clickable-green-button{
+        margin-top: 1rem;
+        padding:1.5rem 2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    } */
+
+    @media (min-height: 460px){
+      .section6-img-container{
+        height:200%;
+      }
+      .image img{
+        height:500px;
+      }
+
+      .text{
+        width: 100%;
+        margin:0 1rem ;
+      }
+      .text h1{
+        font-size: 55px;
+      }
+
+
+      .text p{
+        font-size: 15px;
+      }
+
+      .clickable-green-button{
+        margin-top: 1rem;
+        padding:1.5rem 2rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    }
+  
